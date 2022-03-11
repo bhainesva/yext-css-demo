@@ -1,0 +1,12 @@
+{
+  "features": [
+    {
+      "name": "Landing Page",
+      "templateType": "SOY",
+      "staticPage": {
+        "urlTemplate": "landing.url",
+        "htmlTemplate": "landing.layout"
+      }
+    }
+	]
+}

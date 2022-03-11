@@ -5,14 +5,10 @@
         "root": "dist"
       }
     ],
-    "hbsTemplates": [
+    "soyTemplates": [
       {
         "root": "templates",
-        "pattern": "*.hbs"
-      },
-      {
-        "root": "partials",
-        "pattern": "*.hbs"
+        "pattern": "**/*.soy"
       }
     ]
   },

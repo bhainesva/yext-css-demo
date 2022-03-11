@@ -19,17 +19,35 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo mr-10" alt="logo" />
         <H1>
-          Yext CSS Demo
+          Yext CSS Demo (
+            <Link href="https://github.com/bhainesva/yext-css-demo/blob/master/src/App.tsx">tsx</Link>
+            /
+            <Link href="https://github.com/bhainesva/yext-css-demo/blob/master/tailwind.config.js">tailwind config</Link>
+            /
+            <Link href="https://github.com/bhainesva/yext-css-demo/blob/master/src/styles/variables.css">variables.css</Link>
+            )
         </H1>
       </header>
       <div className="App-body container">
-        <H2 className="mt-4 mb-4">Headings</H2>
+        <H2 className="mt-4 mb-4">
+          Headings (
+            <Link href="https://github.com/bhainesva/yext-css-demo/blob/master/src/components/Heading.tsx">tsx</Link>
+            / 
+            <Link href="https://github.com/bhainesva/yext-css-demo/blob/master/src/styles/Heading.css">css</Link>
+          )
+        </H2>
         <H1>This is an H1</H1>
         <H2>This is an H2</H2>
         <H3>This is an H3</H3>
         <H4 variants={['1']}>This is an H4 styled as an H1</H4>
 
-        <H2 className="mt-4 mb-4">Buttons</H2>
+        <H2 className="mt-4 mb-4">
+          Buttons (
+            <Link href="https://github.com/bhainesva/yext-css-demo/blob/master/src/components/Clickable.tsx">tsx</Link>
+            / 
+            <Link href="https://github.com/bhainesva/yext-css-demo/blob/master/src/styles/Button.css">css</Link>
+          )
+        </H2>
         <div>
           <Button onClick={() => setCount((count) => count + 1)}>
             Default ({count})
@@ -57,7 +75,13 @@ function App() {
           <br /><br />
         </div>
 
-        <H2 className="mt-4 mb-4">Links</H2>
+        <H2 className="mt-4 mb-4">
+          Links (
+            <Link href="https://github.com/bhainesva/yext-css-demo/blob/master/src/components/Clickable.tsx">tsx</Link>
+            / 
+            <Link href="https://github.com/bhainesva/yext-css-demo/blob/master/src/styles/Link.css">css</Link>
+          )
+        </H2>
         <div>
           <Link href="https://www.yext.com">
             Default

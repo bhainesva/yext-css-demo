@@ -1,0 +1,44 @@
+.Button {
+	padding: theme(spacing.2) theme(spacing.3);
+	background-color: theme(colors.button-primary);
+	color: theme(colors.button-primary-text);
+	transition: all var(--dur) var(--ease);
+
+	&:hover {
+		background-color: theme(colors.button-primary-hover);
+	}
+}
+
+.Button--secondary {
+	padding: theme(spacing.2) theme(spacing.3);
+	background-color: theme(colors.button-secondary);
+	color: theme(colors.button-secondary-text);
+
+	&:hover {
+		background-color: theme(colors.button-secondary-hover);
+	}
+}
+
+.Button--inverse {
+	padding: theme(spacing.2) theme(spacing.3);
+	background-color: theme(colors.button-primary-text);
+	color: theme(colors.button-primary);
+
+	&:hover {
+		background-color: theme(colors.button-primary-hover);
+	}
+}
+
+.Button--inverse.Button--secondary {
+	padding: theme(spacing.2) theme(spacing.3);
+	background-color: theme(colors.button-secondary-text);
+	color: theme(colors.button-secondary);
+
+	&:hover {
+		background-color: theme(colors.button-secondary-hover);
+	}
+}
+
+.Button--tight {
+	padding: theme(spacing.1);
+}

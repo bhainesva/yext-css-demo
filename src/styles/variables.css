@@ -1,0 +1,31 @@
+html {
+	/* // Fonts */
+	--font-family-main: 'Lato','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+	--font-weight-bold: 700;
+	--font-weight-semibold: 600;
+	--font-weight-normal: 400;
+	--font-weight-light: 300;
+
+	/* // Colors */
+	--black: 0 0 0;
+	--black: 0 0 0;
+	--white: 255 255 255;
+	--red: 255 0 0;
+	--green: 0 255 0;
+	--blue: 0 0 255;
+
+	--background: var(--black);
+	--containerBackground: 40 44 52;
+	--brand-primary: var(--red);
+	--brand-secondary: var(--green);
+	--brand-accent: var(--blue);
+
+	-overlay-active: rgba(0, 0, 0, 0.6);
+
+	--border-default: 1px solid theme(colors.gray.50);
+	--box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.24);
+
+	--ease: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+	--dur: 300ms;
+}

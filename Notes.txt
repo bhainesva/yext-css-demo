@@ -1,0 +1,20 @@
+- css nesting needs tailwind compat thing: https://tailwindcss.com/docs/using-with-preprocessors#nesting
+- editor support needs postcss extension: https://marketplace.visualstudio.com/items?itemName=csstools.postcss
+- pxtorem doesn't seem to work
+- Clickable component prop handling is wrong, forex baseClass gets added to element as an attribute
+
+
+Guides: 
+- HH/TEMs should use tailwind for everything
+- We should use .container to replace our helper
+- We should use css grid for everything
+- Use your best judgement on when to use utility classes vs when to write css
+	- For me, I wouldn't put responsive styles (beyond visible-xs/hidden-xs type things) in html
+
+
+One significant change is that you can't use css that's tied to a component you're not using. That is:
+- you will write a Heading.scss class, but unless you're using Heading.tsx somewhere that css will not be bundled. 
+
+Questions:
+- should you reference things as variables or through the tailwind theme?
+- should we use apply?

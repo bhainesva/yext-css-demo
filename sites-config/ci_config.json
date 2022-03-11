@@ -14,7 +14,7 @@
   },
   "base_image_tag": "yextci/yextci-builder:stable",
   "dependencies": {
-    "installDepsCmd": "yarn",
+    "installDepsCmd": "echo what; yarn",
     "requiredFiles": [
       "package.json"
     ]

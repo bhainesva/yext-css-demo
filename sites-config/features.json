@@ -1,4 +1,6 @@
 {
+	"locales": ["en"],
+	"streams": [],
   "features": [
     {
       "name": "Landing Page",

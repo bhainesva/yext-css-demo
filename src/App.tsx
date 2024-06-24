@@ -10,6 +10,7 @@ import './styles/variables.css';
 import "./styles/Button.css";
 import "./styles/Link.css";
 import "./styles/Heading.css";
+import Card from './components/Card';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -92,6 +93,8 @@ function App() {
             Styled as Button
           </Link>
         </div>
+
+        <Card />
       </div>
     </div>
   )
